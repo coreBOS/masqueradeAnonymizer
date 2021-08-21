@@ -3,8 +3,6 @@ project:
     columns:
       projectname:
         formatter: domainWord
-      project_no:
-        formatter: project_no
       startdate:
         provider: Faker\Provider\DateTime
         formatter: date
@@ -12,20 +10,11 @@ project:
         provider: Faker\Provider\Internet
         formatter: date
       targetbudget:
-        formatter: targetbudget
+        formatter: randomFloat
+        optional: true
       projecturl:
         provider: Faker\Provider\Internet
         formatter: url
-      projectstatus:
-        formatter: projectstatus
-      projectpriority:
-        formatter: projectpriority
-      projecttype:
-        formatter: projecttype
-      progress:
-        formatter: progress
-      linktoaccountscontacts:
-        formatter: linktoaccountscontacts
       email:
         provider: Faker\Provider\Internet
         formatter: email
