@@ -1,10 +1,9 @@
 msgtemplate:
   vtiger_msgtemplate:
-    vtiger_msgtemplate:
-      columns:
-        subject:
-          formatter: text
-        template:
-          formatter: randomHtml(2,3)
-        templateonlytext:
-          formatter: text
+    columns:
+      subject:
+        formatter: text
+      template:
+        formatter: randomHtml(2,3)
+      templateonlytext:
+        formatter: text
