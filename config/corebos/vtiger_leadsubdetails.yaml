@@ -1,6 +1,0 @@
-leadsubdetails:
-  vtiger_leadsubdetails:
-    columns:
-      website:
-        provider: Faker\Provider\Internet
-        formatter: url

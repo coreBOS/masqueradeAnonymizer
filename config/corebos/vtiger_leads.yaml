@@ -1,0 +1,28 @@
+leaddetails:
+  vtiger_leaddetails:
+    columns:
+      firstname:
+        formatter: firstName
+      lastname:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      company:
+        provider: Faker\Provider\en_US\Company
+        formatter: company
+      designation:
+        formatter: shuffle
+      email:
+        formatter: email
+      annualrevenue:
+        formatter: randomFloat
+        nbMaxDecimals: 2
+        min: 100
+        max: 100000
+      secondaryemail:
+        provider: Faker\Provider\Internet
+        formatter: email
+  vtiger_leadsubdetails:
+    columns:
+      website:
+        provider: Faker\Provider\Internet
+        formatter: url

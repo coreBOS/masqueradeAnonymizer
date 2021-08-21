@@ -6,27 +6,22 @@ leadaddress:
         formatter: city
       code:
         provider: Faker\Provider\en_US\Address
-        formatter: stateAbbr
+        formatter: postcode
       state:
         provider: Faker\Provider\en_US\Address
         formatter: state
       pobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
       country:
         provider: Faker\Provider\en_US\Address
         formatter: country
       phone:
-        provider: Faker\Provider\en_US\Address
-        formatter: phone
+        formatter: phoneNumber
       mobile:
-        provider: Faker\Provider\en_US\Address
-        formatter: mobile
+        formatter: phoneNumber
       fax:
-        provider: Faker\Provider\en_US\Address
-        formatter: fax
+        formatter: faxNumber
       lane:
         provider: Faker\Provider\en_US\Address
-        formatter: lane
-      leadaddresstype:
-        formatter: leadaddresstype
+        formatter: address
