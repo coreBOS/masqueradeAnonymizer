@@ -1,7 +1,15 @@
 inventorydetails:
   vtiger_inventorydetails:
     columns:
-      inventorydetails_no:
-        formatter: inventorydetails_no
-      productid:
-        formatter: productid
+      listprice:
+        formatter: randomFloat
+      extgross:
+        formatter: randomFloat
+      extnet:
+        formatter: randomFloat
+      linetotal:
+        formatter: randomFloat
+      cost_price:
+        formatter: randomFloat
+      cost_gross:
+        formatter: randomFloat

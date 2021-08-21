@@ -1,15 +1,11 @@
 faq:
   vtiger_faq:
-      columns:
-        faq_no:
-          formatter: faq_no
-        product_id:
-          formatter: product_id
-        question:
-          formatter: text
-        answer:
-          formatter: text
-        category:
-          formatter: category
-        status:
-          formatter: status
+    columns:
+      question:
+        formatter: text
+      answer:
+        formatter: text
+  vtiger_faqcomments:
+    columns:
+      comments:
+        formatter: text

@@ -6,7 +6,7 @@ invoicebillads:
         formatter: city
       bill_code:
         provider: Faker\Provider\en_US\Address
-        formatter: bill_code
+        formatter: postcode
       bill_country:
         provider: Faker\Provider\en_US\Address
         formatter: country
@@ -15,4 +15,5 @@ invoicebillads:
         formatter: state
       bill_pobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
+        optional: true

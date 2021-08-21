@@ -6,7 +6,7 @@ invoiceshipads:
         formatter: city
       ship_code:
         provider: Faker\Provider\en_US\Address
-        formatter: ship_code
+        formatter: postcode
       ship_country:
         provider: Faker\Provider\en_US\Address
         formatter: country
@@ -18,4 +18,5 @@ invoiceshipads:
         formatter: streetName
       ship_pobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
+        optional: true

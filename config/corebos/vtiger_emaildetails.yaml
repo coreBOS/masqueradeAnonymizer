@@ -10,13 +10,11 @@ emaildetails:
       cc_email:
         provider: Faker\Provider\Internet
         formatter: email
+        optional: true
       bcc_email:
         provider: Faker\Provider\Internet
         formatter: email
-      assigned_user_email:
-        provider: Faker\Provider\Internet
+        optional: true
+      replyto:
         formatter: email
-      idlists:
-        formatter: text
-      email_flag:
-        formatter: email_flag
+        optional: true
