@@ -2,22 +2,90 @@ purchaseorder:
   vtiger_purchaseorder:
     columns:
       subject:
-        formatter: subject
+        formatter: words
       requisition_no:
-        formatter: requisition_no
-      purchaseorder_no:
-        formatter: purchaseorder_no
+        formatter: ean13
+        optional: true
       tracking_no:
-        formatter: tracking_no
-      duedate:
-        formatter: duedate
-      carrier:
-        formatter: carrier
-      type:
-        formatter: type
-      taxtype:
-        formatter: taxtype
+        formatter: ean8
+        optional: true
       terms_conditions:
-        formatter: terms_conditions
-      postatus:
-        formatter: postatus
+        formatter: text
+      adjustment:
+        formatter: randomFloat
+      subtotal:
+        formatter: randomFloat
+      total:
+        formatter: randomFloat
+      pl_gross_total:
+        formatter: randomFloat
+      pl_dto_line:
+        formatter: randomFloat
+      pl_dto_total:
+        formatter: randomFloat
+      pl_dto_global:
+        formatter: randomFloat
+      pl_net_total:
+        formatter: randomFloat
+      sum_nettotal:
+        formatter: randomFloat
+      sum_taxtotal:
+        formatter: randomFloat
+      sum_tax1:
+        formatter: randomFloat
+      sum_taxtotalretention:
+        formatter: randomFloat
+      sum_tax2:
+        formatter: randomFloat
+      pl_sh_total:
+        formatter: randomFloat
+      sum_tax3:
+        formatter: randomFloat
+      pl_sh_tax:
+        formatter: randomFloat
+      pl_grand_total:
+        formatter: randomFloat
+      pl_adjustment:
+        formatter: randomFloat
+  vtiger_poshipads:
+    columns:
+      ship_city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      ship_code:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode
+      ship_country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      ship_state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      ship_street:
+        provider: Faker\Provider\en_US\Address
+        formatter: address
+      ship_pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: buildingNumber
+        optional: true
+  vtiger_pobillads:
+    columns:
+      bill_city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      bill_code:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode
+      bill_country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      bill_state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      bill_street:
+        provider: Faker\Provider\en_US\Address
+        formatter: address
+      bill_pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: buildingNumber
+        optional: true
