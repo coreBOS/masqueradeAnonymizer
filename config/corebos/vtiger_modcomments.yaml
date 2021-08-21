@@ -1,4 +1,8 @@
 modcomments:
   vtiger_modcomments:
-    provider:
-      delete: true
+    columns:
+      commentcontent:
+        formatter: text
+      relatedassignedemail:
+        provider: Faker\Provider\Internet
+        formatter: email
