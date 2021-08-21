@@ -2,20 +2,26 @@ campaign:
   vtiger_campaign:
     columns:
       campaignname:
-        formatter: campaignname
-      campaigntype:
-        formatter: campaigntype
-      campaignstatus:
-        formatter: campaignstatus
+        formatter: words
       expectedrevenue:
-        formatter: expectedrevenue
+        formatter: randomFloat
       budgetcost:
-        formatter: budgetcost
+        formatter: randomFloat
       actualcost:
-        formatter: actualcost
-      expectedresponse:
-        formatter: expectedresponse
+        formatter: randomFloat
       sponsor:
-        formatter: sponsor
+        formatter: name
       targetaudience:
-        formatter: targetaudience
+        formatter: words
+      expectedsalescount:
+        formatter: words
+      actualsalescount:
+        formatter: words
+      expectedresponsecount:
+        formatter: words
+      actualresponsecount:
+        formatter: words
+      expectedroi:
+        formatter: randomFloat
+      actualroi:
+        formatter: randomFloat

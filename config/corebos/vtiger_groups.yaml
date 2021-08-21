@@ -2,6 +2,6 @@ groups:
   vtiger_groups:
     columns:
       groupname:
-        formatter: groupname
+        formatter: shuffle
       description:
         formatter: text

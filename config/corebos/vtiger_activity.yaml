@@ -1,6 +1,7 @@
 activity:
   vtiger_activity:
     columns:
+      subject:
+        formatter: words
       location:
-        provider: Faker\Provider\en_US\Address
         formatter: city
