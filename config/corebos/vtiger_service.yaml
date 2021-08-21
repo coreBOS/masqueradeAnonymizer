@@ -1,28 +1,12 @@
 service:
   vtiger_service:
     columns:
-      service_no:
-        formatter: service_no
       servicename:
-        formatter: servicename
-      servicecategory:
-        formatter: servicecategoy
-      sales_start_date:
-        provider: Faker\Provider\DateTime
-        formatter: dateTimeThisCentury
-      sales_end_date:
-        provider: Faker\Provider\DateTime
-        formatter: dateTimeThisCentury
-      start_date:
-        provider: Faker\Provider\DateTime
-        formatter: dateTimeThisCentury
-      expiry_date:
-        provider: Faker\Provider\DateTime
-        formatter: dateTimeThisCentury
-      service_usageunit:
-        formatter: service_usageunit
+        formatter: words
       website:
         provider: Faker\Provider\Internet
         formatter: url
-      taxclass:
-        formatter: taxclass
+      unit_price:
+        formatter: randomFloat
+      cost_price:
+        formatter: randomFloat
