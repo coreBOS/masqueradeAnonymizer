@@ -1,48 +1,30 @@
 users:
   vtiger_users:
+    provider:
+      where: " user_name != 'admin' "
     columns:
       user_name:
-        formatter: user_name
+        formatter: userName
       user_password:
-        formatter: postcode
-      cal_color:
-        formatter: cal_color
+        formatter: shuffle
       first_name:
-        formatter: first_name
+        formatter: firstName
       last_name:
-        formatter: last_name
-      reports_to_id:
-        formatter: reports_to_id
-      is_admin:
-        formatter: is_admin
-      currency_id:
-        formatter: currency_id
+        formatter: lastName
       description:
-        formatter: description
-      date_entered:
-        formatter: date_entered
-      date_modified:
-        formatter: date_modified
-      modified_user_id:
-        formatter: modified_user_id
+        formatter: test
       title:
         formatter: title
-      department:
-        formatter: department
       phone_home:
-        formatter: phone_home
+        formatter: phoneNumber
       phone_mobile:
-        provider: Faker\Provider\DateTime
         formatter: phoneNumber
       phone_work:
-        provider: Faker\Provider\DateTime
         formatter: phoneNumber
       phone_other:
-        fprovider: Faker\Provider\DateTime
         formatter: phoneNumber
       phone_fax:
-        provider: Faker\Provider\en_HK\PhoneNumber
-        formatter: fax
+        formatter: faxNumber
       email1:
         provider: Faker\Provider\Internet
         formatter: email
@@ -52,10 +34,8 @@ users:
       secondaryemail:
         provider: Faker\Provider\Internet
         formatter: email
-      status:
-        formatter: status
       signature:
-        formatter: signature
+        formatter: word
       address_street:
         provider: Faker\Provider\Address
         formatter: streetName
@@ -70,50 +50,8 @@ users:
         formatter: country
       address_postalcode:
         provider: Faker\Provider\en_US\Address
-        formatter: address
-      user_preferences:
-        formatter: user_preferences
-      tz:
-        formatter: tz
-      holidays:
-        formatter: holidays
-      namedays:
-        formatter: namedays
-      workdays:
-        formatter: workdays
-      weekstart:
-        formatter: weekstart
-      date_format:
-        formatter: date_format
-      hour_format:
-        formatter: hour_format
-      start_hour:
-        formatter: start_hour
-      end_hour:
-        formatter: end_hour
-      activity_view:
-        formatter: activity_view
-      lead_view:
-        formatter: lead_view
+        formatter: postcode
       imagename:
-        formatter: imagename
-      confirm_password:
-        formatter: confirm_password
-      internal_mailer:
-        formatter: internal_mailer
-      crypt_type:
-        formatter: cryp_type
+        nullColumnBeforeRun: true
       accesskey:
-        formatter: accesskey
-      theme:
-        formatter: theme
-      language:
-        formatter: language
-      time_zone:
-        formatter: time_zone
-      showtagas:
-        formatter: showtagas
-      send_email_to_sender:
-        formatter: send_email_to_sender
-      last_password_reset_date:
-        formatter: last_password_reset_date
+        formatter: password

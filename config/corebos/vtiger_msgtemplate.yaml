@@ -4,6 +4,6 @@ msgtemplate:
       subject:
         formatter: text
       template:
-        formatter: randomHtml(2,3)
+        formatter: randomHtml
       templateonlytext:
         formatter: text

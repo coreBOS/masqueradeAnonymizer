@@ -1,22 +1,19 @@
 mailscanner:
   vtiger_mailscanner:
-    columns:
-      scannername:
-        formatter: scannername
-      server:
-        provider: Faker\Provider\Internet
-        formatter: ipv4
-      protocol:
-        provider: Faker\Provider\Internet
-        formatter: protocol
-      username:
-        formatter: userName
-      password:
-        formatter: password
-      connectionurl:
-        provider: Faker\Provider\Internet
-        formatter: url
-      searchfor:
-        formatter: slug
-      markas:
-        formatter: markas
+    provider:
+      delete: true
+  vtiger_mailscanner_actions:
+    provider:
+      delete: true
+  vtiger_mailscanner_folders:
+    provider:
+      delete: true
+  vtiger_mailscanner_ids:
+    provider:
+      delete: true
+  vtiger_mailscanner_ruleactions:
+    provider:
+      delete: true
+  vtiger_mailscanner_rules:
+    provider:
+      delete: true
