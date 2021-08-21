@@ -18,7 +18,7 @@ contactaddress:
         formatter: state
       mailingpobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
       othercity:
         provider: Faker\Provider\en_US\Address
         formatter: city
@@ -36,4 +36,4 @@ contactaddress:
         formatter: street
       otherpobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber

@@ -1,8 +1,6 @@
-contactdetails:
+contacts:
   vtiger_contactdetails:
     columns:
-      contact_no:
-        formatter: contact_no
       salutation:
         provider: Faker\Provider\en_US\Person
         formatter: title
@@ -22,22 +20,29 @@ contactdetails:
         provider: Faker\Provider\en_US\PhoneNumber
         formatter: phoneNumber
       title:
-        formatter: title
+        formatter: shuffle
       department:
-        formatter: department
+        formatter: shuffle
       fax:
         provider: Faker\Provider\en_HK\PhoneNumber
-        formatter: fax
-      reportsto:
-        formatter: reportsto
-      training:
-        formatter: training
-      otheremail:
+        formatter: faxNumber
+      secondaryemail:
         provider: Faker\Provider\Internet
         formatter: email
       imagename:
-        formatter: imagename
-      reference:
-        formatter: reference
-      template_language:
-        formatter: templaate_language
+        nullColumnBeforeRun: true
+  vtiger_contactsubdetails:
+    columns:
+      homephone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      otherphone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      assistant:
+        formatter: name
+      assistantphone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      birthday:
+        formatter: date
