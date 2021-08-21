@@ -2,26 +2,9 @@ notes:
   vtiger_notes:
     columns:
       title:
-        formatter: title
+        formatter: words
       filename:
-        formatter: filename
+        formatter: file
       notecontent:
         provider: Faker\Provider\File
-        formatter: mimeType
-      filetype:
-        provider: Faker\Provider\File
-        formatter: fileExtension
-      filelocationtype:
-        formatter: fileloctiontype
-      filedownloadcount:
-        formatter: filedownloadcount
-      filestatus:
-        formatter: filestatus
-      filesize:
-        formatter: filesize
-      fileversion:
-        formatter: fileversion
-      template:
-        formatter: template
-      template_for:
-        formatter: template_for
+        formatter: text

@@ -1,30 +1,5 @@
 servicecontracts:
   vtiger_servicecontracts:
     columns:
-      start_date:
-        provider: Faker\Provider\DateTime
-        formatter: date
-      end_date:
-        provider: Faker\Provider\DateTime
-        formatter: date
-      tracking_unit:
-        formatter: tracking_unit
       subject:
-        formatter: subject
-      due_date:
-        provider: Faker\Provider\DateTime
-        formatter: date
-      planned_duration:
-        formatter: planned_duration
-      actual_duration:
-        formatter: actual_duration
-      contract_status:
-        formatter: contract_status
-      priority:
-        formatter: priority
-      contract_type:
-        formatter: contract_type
-      progress:
-        formatter: progress
-      contract_no:
-        formatter: contract_no
+        formatter: words

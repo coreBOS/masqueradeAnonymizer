@@ -1,51 +1,11 @@
 potential:
   vtiger_potential:
     columns:
-      potential_no:
-        formatter: potential_no
-      related_to:
-        formatter: related_to
       potentialname:
-        formatter: potentialname
+        formatter: words
       amount:
-        formatter: amount
-      currency:
-        formatter: currency
-      closingdate:
-        formatter: date
-      typeofrevenue:
-        formatter: typeofrevenue
-      nextstep:
-        formatter: nextstep
-      private:
-        formatter: private
-      probability:
-        formatter: probability
-      sales_stage:
-        formatter: sales_stage
-      potentialtype:
-        formatter: potentialtype
-      leadsource:
-        formatter: leadsource
-      productid:
-        formatter: productid
-      productversion:
-        formatter: productversion
-      quotationref:
-        formatter: quotationref
-      patnercontact:
-        formatter: patnercontact
-      remarks:
-        formatter: remarks
-      runtimefee:
-        formatter: runtimefee
-      followupdate:
-        formatter: date
-      description:
-        formatter: text
+        formatter: randomFloat
+      forecast_amount:
+        formatter: randomFloat
       email:
         formatter: email
-      isconvertedfromlead:
-        formatter: isconvertedfromlead
-      convertedfromlead:
-        formatter: convertedfromlead

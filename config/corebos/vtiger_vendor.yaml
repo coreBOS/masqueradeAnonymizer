@@ -1,26 +1,20 @@
 vendor:
   vtiger_vendor:
     columns:
-      vendorid:
-        formatter: vendorid
-      vendor_no:
-        formatter: vendor_no
       vendorname:
-        formatter: vendorname
-      phone:
-        formatter: phone
+        provider: Faker\Provider\en_US\Company
+        formatter: company
       email:
         provider: Faker\Provider\Internet
         formatter: email
+      phone:
+        formatter: phoneNumber
       website:
         provider: Faker\Provider\Internet
         formatter: url
-      glacct:
-        formatter: glacct
-      category:
-        formatter: category
+
       street:
-        formatter: streetName
+        formatter: address
       city:
         provider: Faker\Provider\en_US\Address
         formatter: city
@@ -29,10 +23,9 @@ vendor:
         formatter: state
       pobox:
         provider: Faker\Provider\Address
-        formatter: address
+        formatter: buildingNumber
+        optional: true
       postalcode:
         formatter: postcode
       country:
         formatter: country
-      description:
-        formtter: description
