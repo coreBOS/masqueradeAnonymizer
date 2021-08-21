@@ -1,42 +1,16 @@
 troubletickets:
   vtiger_troubletickets:
     columns:
-      tickedid:
-        formatter: ticketid
-      ticket_no:
-        formatter: ticket_no
-      groupname:
-        formatter: groupname
-      parent_id:
-        formatter: parent_id
-      product_id:
-        formatter: product_id
-      priority:
-        formatter: priority
-      severity:
-        formatter: severity
-      status:
-        formatter: status
-      category:
-        formatter: category
       title:
-        formatter: title
-      solution:
-        formatter: solution
+        formatter: words
       update_log:
-        formatter: update_log
-      version_id:
-        formatter: version_id
-      hours:
-        formatter: hours
-      days:
-        formatter: days
-      from_portal:
-        formatter: from_portal
+        nullColumnBeforeRun: true
       email:
         provider: Faker\Provider\Internet
         formatter: email
-      from_mailscanner:
-        formatter: from_mailscanner
-      commentadded:
-        formatter: commentadded
+      solution:
+        formatter: text
+  vtiger_ticketcomments:
+    columns:
+      comments:
+        formatter: text
