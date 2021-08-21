@@ -8,7 +8,6 @@ globalvariable:
               gvname != 'Debug_RelatedList_Query' and
               gvname != 'Debug_Popup_Query' and
               gvname != 'Debug_Email_Sending' and
-              gvname != 'Debug_Send_VtigerCron_Error' and
               gvname != 'Debug_Calculate_Response_Time' and
               gvname != 'Debug_ActivityReminder_Deactivated' and
               gvname != 'Debug_Access_Restricted_File' and

@@ -1,0 +1,4 @@
+emailtemplates:
+  vtiger_emailtemplatescf:
+    provider:
+      delete: true

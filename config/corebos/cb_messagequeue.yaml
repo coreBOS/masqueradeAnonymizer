@@ -2,4 +2,4 @@ messagequeue:
   cb_messagequeue:
     provider:
       delete: true
-      
+

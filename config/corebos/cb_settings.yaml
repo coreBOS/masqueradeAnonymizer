@@ -2,5 +2,7 @@ settings:
   cb_settings:
     provider:
       delete: true
+      where: " setting_key not in ('cbmqtm_classfile', 'cbmqtm_classname', 'coreBOSMessageModuleWithS', 'denormodule_list') "
+
 
 

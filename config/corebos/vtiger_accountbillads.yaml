@@ -15,4 +15,7 @@ accountbillads:
         formatter: streetName
       bill_pobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
+      bill_code:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode

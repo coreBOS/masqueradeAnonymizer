@@ -1,21 +1,20 @@
 accounts:
   vtiger_account:
     columns:
-      account_no:
-        provider: Faker\Provider\Miscellaneous
-        formatter: md5
       accountname:
         provider: Faker\Provider\en_US\Company
         formatter: company
-      account_type:
-        provider: Faker\Provider\en_US\Company
-        formatter: bs
       annualrevenue:
-        formatter: annualRevenue
+        formatter: randomFloat
+        nbMaxDecimals: 2
+        min: 100
+        max: 100000
       ownership:
-        formatter: ownership
+        formatter: word
       siccode:
-        formatter: siccode
+        formatter: swiftBicNumber
+      tickersymbol:
+        formatter: word
       phone:
         formatter: phoneNumber
       otherPhone:
@@ -31,6 +30,3 @@ accounts:
       fax:
         provider: Faker\Provider\en_HK\PhoneNumber
         formatter: faxNumber
-
-
-

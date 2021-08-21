@@ -12,7 +12,11 @@ accountshipads:
         formatter: state
       ship_pobox:
         provider: Faker\Provider\en_US\Address
-        formatter: address
+        formatter: buildingNumber
       ship_street:
         provider: Faker\Provider\en_US\Address
         formatter: streetName
+      ship_code:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode
+
