@@ -2,7 +2,7 @@ globalvariable:
   vtiger_globalvariable:
     provider:
       delete: true
-      where: "gvname != 'Debug_Record_Not_Found' and 
+      where: "gvname != 'Debug_Record_Not_Found' and
               gvname != 'Debug_Report_Query' and
               gvname != 'Debug_ListView_Query' and
               gvname != 'Debug_RelatedList_Query' and
@@ -25,7 +25,7 @@ globalvariable:
               gvname != 'Application_ExpirePasswordAfterDays' and
               gvname != 'Application_DetailView_Inline_Edit' and
               gvname != 'Application_DetailView_Record_Navigation' and
-              gvname != 'Application_DetailView_Sticky_BlockStatus' and 
+              gvname != 'Application_DetailView_Sticky_BlockStatus' and
               gvname != 'Application_Filter_All_Edit' and
               gvname != 'Application_EditView_Submit_Form_WithEnter' and
               gvname != 'Application_TrackerMaxHistory' and

@@ -1,4 +1,4 @@
-invoicebillads: 
+invoicebillads:
   vtiger_invoicebillads:
     columns:
       bill_city:

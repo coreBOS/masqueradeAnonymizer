@@ -1,4 +1,4 @@
-smsnotifier_servers:  
+smsnotifier_servers:
   vtiger_smsnotifier_servers:
     columns:
       password:

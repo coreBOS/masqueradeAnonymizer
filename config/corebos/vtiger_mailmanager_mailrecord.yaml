@@ -1,4 +1,4 @@
-mailmanager_mailrecord:  
+mailmanager_mailrecord:
   vtiger_mailmanager_mailrecord:
     provider:
       delete: true

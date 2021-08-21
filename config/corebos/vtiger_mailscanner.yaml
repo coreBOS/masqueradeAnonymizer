@@ -1,4 +1,4 @@
-mailscanner: 
+mailscanner:
   vtiger_mailscanner:
     columns:
       scannername:

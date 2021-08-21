@@ -1,4 +1,4 @@
-mail_accounts: 
+mail_accounts:
   vtiger_mail_accounts:
     provider:
       delete: true

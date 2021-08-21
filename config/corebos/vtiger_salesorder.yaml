@@ -1,4 +1,4 @@
-salesorder: 
+salesorder:
   vtiger_salesorder:
     columns:
       subject:

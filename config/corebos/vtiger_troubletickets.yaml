@@ -1,4 +1,4 @@
-troubletickets:  
+troubletickets:
   vtiger_troubletickets:
     columns:
       tickedid:

@@ -1,4 +1,4 @@
-users:  
+users:
   vtiger_users:
     columns:
       user_name:

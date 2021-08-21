@@ -1,4 +1,4 @@
-poshipads: 
+poshipads:
   vtiger_poshipads:
     columns:
       ship_city:

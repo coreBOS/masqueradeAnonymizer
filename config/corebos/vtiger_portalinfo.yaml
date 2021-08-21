@@ -1,4 +1,4 @@
-portalinfo:  
+portalinfo:
   vtiger_portalinfo:
     provider:
       delete: true

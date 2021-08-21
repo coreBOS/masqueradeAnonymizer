@@ -2,7 +2,7 @@ cbMap:
   vtiger_cbmap:
     provider:
       delete: true
-      where: "maptype != 'Record Access Control' and 
+      where: "maptype != 'Record Access Control' and
               maptype != 'Record Set Mapping' and
               maptype != 'Module Set Mapping' and
               maptype != 'ListColumns' and

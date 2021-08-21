@@ -1,4 +1,4 @@
-invoice: 
+invoice:
   vtiger_invoice:
     columns:
       subject:

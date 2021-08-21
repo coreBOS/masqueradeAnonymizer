@@ -1,4 +1,4 @@
-servicecontracts:  
+servicecontracts:
   vtiger_servicecontracts:
     columns:
       start_date:

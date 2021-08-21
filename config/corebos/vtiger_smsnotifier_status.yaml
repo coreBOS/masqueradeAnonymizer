@@ -1,4 +1,4 @@
-smsnotifier_status:  
+smsnotifier_status:
   vtiger_smsnotifier_status:
     columns:
       smsnotifierid:

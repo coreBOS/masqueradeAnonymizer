@@ -1,4 +1,4 @@
-ws_userauthtoken:  
+ws_userauthtoken:
   com_vtiger_workflowtask_queue:
     provider:
       delete: true
