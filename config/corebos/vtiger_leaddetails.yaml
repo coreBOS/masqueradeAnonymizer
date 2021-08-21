@@ -1,0 +1,57 @@
+leaddetails: 
+  vtiger_leaddetails:
+    columns:
+      lead_no:
+        formatter: lead_no
+      email:
+        formatter: email
+      interest:
+        formatter: interest
+      firstname:
+        formatter: firstName
+      salutation:
+        provider: Faker\Provider\en_US\Person
+        formatter: title
+      lastname:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      company:
+        provider: Faker\Provider\en_US\Company
+        formatter: company
+      industry:
+        formatter: industry
+      campaign:
+        formatter: campaign
+      rating:
+        formatter: rating
+      leadstatus:
+        formatter: leadststus
+      leadsource:
+        formatter: leadsource
+      designation:
+        formatter: designation
+      space:
+        formatter: space
+      comments:
+        formatter: text
+      priority:
+        formatter: text
+      demorequest:
+        formatter: demorequest
+      patnercontact:
+        formatter: patnercontact
+      productversion:
+        formatter: productversion
+      product:
+        formatter: product
+      maildate:
+        formatter: maildate
+      nextstepdate:
+        formatter: nextstepdate
+      fundingsituation:
+        formatter: fundingsituation
+      transferdate:
+        formatter: transferdate
+      secondaryemail:
+        provider: Faker\Provider\Internet
+        formatter: email

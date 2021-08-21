@@ -1,0 +1,32 @@
+leadaddress: 
+  vtiger_leadaddress:
+    columns:
+      city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      code:
+        provider: Faker\Provider\en_US\Address
+        formatter: stateAbbr
+      state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address
+      country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      phone:
+        provider: Faker\Provider\en_US\Address
+        formatter: phone
+      mobile:
+        provider: Faker\Provider\en_US\Address
+        formatter: mobile
+      fax:
+        provider: Faker\Provider\en_US\Address
+        formatter: fax
+      lane:
+        provider: Faker\Provider\en_US\Address
+        formatter: lane
+      leadaddresstype:
+        formatter: leadaddresstype

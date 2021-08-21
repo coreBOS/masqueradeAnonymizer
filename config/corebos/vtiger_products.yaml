@@ -1,0 +1,42 @@
+products:  
+  vtiger_products:
+    columns:
+      product_no:
+        formatter: product_no
+      productname:
+        formatter: productname
+      proctcode:
+        formatter: productcode
+      productcategory:
+        formatter: productcategory
+      manufacturer:
+        provider: Faker\Provider\Company
+        formatter: manufacturer
+      sales_start_date:
+        provider: Faker\Provider\DateTime
+        formatter: dateTimeThisCentury
+      sales_end_date:
+        provider: Faker\Provider\DateTime
+        formatter: dateTimeThisCentury
+      expiry_date:
+        provider: Faker\Provider\DateTime
+        formatter: dateTimeThisCentury
+      commissionmethod:
+        formatter: commissionmethod
+      usageunit:
+        formatter: usageunit
+      website:
+        provider: Faker\Provider\Internet
+        formatter: url
+      taxclass:
+        formatter: taxclass
+      mfr_part_no:
+        formatter: mfr_part_no
+      serialno:
+        formatter: serialno
+      productsheet:
+        formatter: productsheet
+      glacct:
+        formatter: glacct
+      imagename:
+        formatter: imagename

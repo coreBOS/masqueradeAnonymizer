@@ -1,0 +1,7 @@
+inventorydetails:
+  vtiger_inventorydetails:
+    columns:
+      inventorydetails_no:
+        formatter: inventorydetails_no
+      productid:
+        formatter: productid

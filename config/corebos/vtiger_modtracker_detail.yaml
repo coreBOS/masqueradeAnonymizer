@@ -1,0 +1,9 @@
+modtracker_detail:  
+  vtiger_modtracker_detail:
+    columns:
+      fieldname:
+        formatter: fieldname
+      prevalue:
+        formatter: text
+      postvalue:
+        formatter: text

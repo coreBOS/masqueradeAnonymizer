@@ -1,0 +1,4 @@
+asteriskincomingcalls:  
+  vtiger_asteriskincomingcalls:
+     provider:
+      delete: true

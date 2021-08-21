@@ -1,0 +1,36 @@
+accounts:
+  vtiger_account:
+    columns:
+      account_no:
+        provider: Faker\Provider\Miscellaneous
+        formatter: md5
+      accountname:
+        provider: Faker\Provider\en_US\Company
+        formatter: company
+      account_type:
+        provider: Faker\Provider\en_US\Company
+        formatter: bs
+      annualrevenue:
+        formatter: annualRevenue
+      ownership:
+        formatter: ownership
+      siccode:
+        formatter: siccode
+      phone:
+        formatter: phoneNumber
+      otherPhone:
+        formatter: phoneNumber
+        optional: true
+      email1:
+        formatter: email
+      email2:
+        formatter: email
+        optional: true
+      website:
+        formatter: url
+      fax:
+        provider: Faker\Provider\en_HK\PhoneNumber
+        formatter: faxNumber
+
+
+

@@ -1,0 +1,4 @@
+notificationdrivers: 
+  vtiger_notificationdrivers:
+    provider:
+      delete: true

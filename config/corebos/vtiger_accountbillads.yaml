@@ -1,0 +1,18 @@
+accountbillads:
+  vtiger_accountbillads:
+    columns:
+      bill_city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      bill_country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      bill_state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      bill_street:
+        provider: Faker\Provider\en_US\Address
+        formatter: streetName
+      bill_pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address

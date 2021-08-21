@@ -1,0 +1,23 @@
+purchaseorder:  
+  vtiger_purchaseorder:
+    columns:
+      subject:
+        formatter: subject
+      requisition_no:
+        formatter: requisition_no
+      purchaseorder_no:
+        formatter: purchaseorder_no
+      tracking_no:
+        formatter: tracking_no
+      duedate:
+        formatter: duedate
+      carrier:
+        formatter: carrier
+      type:
+        formatter: type
+      taxtype:
+        formatter: taxtype
+      terms_conditions:
+        formatter: terms_conditions
+      postatus:
+        formatter: postatus

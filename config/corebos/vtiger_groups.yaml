@@ -1,0 +1,7 @@
+groups:
+  vtiger_groups:
+    columns:
+      groupname:
+        formatter: groupname
+      description:
+        formatter: text

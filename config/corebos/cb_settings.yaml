@@ -1,0 +1,6 @@
+settings:
+  cb_settings:
+    provider:
+      delete: true
+
+

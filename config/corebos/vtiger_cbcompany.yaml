@@ -1,0 +1,25 @@
+vtiger_cbcompany:
+ vtiger_cbcompany:
+  columns:
+    companyname:
+      formatter: company
+    phone:
+      provider: Faker\Provider\en_HK\PhoneNumber
+      formatter: phoneNumber
+    fax:
+      provider: Faker\Provider\en_HK\PhoneNumber
+      formatter: faxNumber
+    website:
+      formatter: url
+    address:
+      provider: Faker\Provider\en_US\Address
+      formatter: address
+    city:
+      provider: Faker\Provider\en_US\Address
+      formatter: city
+    companylogo:
+      formatter: companylogo
+    applogo:
+      formatter: applogo
+    favicon:
+      formatter: favicon

@@ -1,0 +1,15 @@
+asteriskincomingevents:
+  vtiger_asteriskincomingevents:
+    columns:
+      channel:
+        formatter: channel
+      from_number:
+        formatter: e164PhoneNumber
+      from_name:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      to_number:
+        formatter: e164PhoneNumber
+      callertype:
+        provider: Faker\Provider\en_US\Company
+        formatter: jobTitle

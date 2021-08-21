@@ -1,0 +1,43 @@
+contactdetails:
+  vtiger_contactdetails:
+    columns:
+      contact_no:
+        formatter: contact_no
+      salutation:
+        provider: Faker\Provider\en_US\Person
+        formatter: title
+      firstname:
+        provider: Faker\Provider\en_US\Person
+        formatter: firstName
+      lastname:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      phone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      mobile:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      title:
+        formatter: title
+      department:
+        formatter: department
+      fax:
+        provider: Faker\Provider\en_HK\PhoneNumber
+        formatter: fax
+      reportsto:
+        formatter: reportsto
+      training:
+        formatter: training
+      otheremail:
+        provider: Faker\Provider\Internet
+        formatter: email
+      imagename:
+        formatter: imagename
+      reference:
+        formatter: reference
+      template_language:
+        formatter: templaate_language

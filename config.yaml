@@ -1,0 +1,6 @@
+platform: corebos
+database: database2anonymize
+username: mysqluser
+password: mysqlpassword
+host: localhost
+port: 3306

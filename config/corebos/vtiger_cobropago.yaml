@@ -1,0 +1,31 @@
+cobropago:  
+  vtiger_cobropago:
+    columns:
+      reference:
+        formatter: reference
+      register:
+        formatter: date
+      duedate:
+        formatter: duedate
+      paid:
+        formatter: paid
+      credit:
+        formatter: credit
+      paymentmode:
+        formatter: paymentmode
+      paymentcategory:
+        formatter: paymentcategory
+      amount:
+        formatter: amount
+      cost:
+        formatter: cost
+      benefit:
+        formatter: benefit
+      commercialid:
+        formatter: commercialid
+      update_log:
+        formatter: text
+      cyp_no:
+        formatter: cyp_no
+      paymentdate:
+        formatter: paymentdate

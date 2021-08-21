@@ -1,0 +1,4 @@
+systems:  
+  vtiger_systems:
+    provider:
+      delete: true

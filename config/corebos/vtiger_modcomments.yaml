@@ -1,0 +1,4 @@
+modcomments:
+  vtiger_modcomments:
+    provider:
+      delete: true

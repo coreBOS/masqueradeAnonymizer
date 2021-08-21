@@ -1,0 +1,31 @@
+salesorder: 
+  vtiger_salesorder:
+    columns:
+      subject:
+        formatter: subject
+      potentialid:
+        formatter: potentialid
+      customerno:
+        formatter: customerno
+      salesorder_no:
+        formatter: salesorder_no
+      vendorterms:
+        formatter: vendorterms
+      duedate:
+        formatter: duedate
+      carrier:
+        formatter: carrier
+      pending:
+        formatter: pending
+      type:
+        formatter: type
+      taxtype:
+        formatter: taxtype
+      terms_conditions:
+        formatter: terms_conditions
+      purchaseorder:
+        formatter: purchaseorder
+      sostatus:
+        formatter: sostatus
+      invoiced:
+        formatter: invoiced

@@ -1,0 +1,4 @@
+ws_userauthtoken:  
+  vtiger_ws_userauthtoken:
+    provider:
+      delete: true

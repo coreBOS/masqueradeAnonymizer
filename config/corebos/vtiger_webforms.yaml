@@ -1,0 +1,4 @@
+webforms:
+  vtiger_webforms:
+    provider:
+      delete: true

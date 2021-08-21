@@ -1,0 +1,21 @@
+pobillads: 
+  vtiger_pobillads:
+    columns:
+      bill_city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      bill_code:
+        provider: Faker\Provider\en_US\Address
+        formatter: bill_code
+      bill_country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      bill_state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      bill_street:
+        provider: Faker\Provider\en_US\Address
+        formatter: streetName
+      bill_pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address

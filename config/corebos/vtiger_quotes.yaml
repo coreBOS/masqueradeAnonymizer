@@ -1,0 +1,27 @@
+quotes:  
+  vtiger_quotes:
+    columns:
+      subject:
+        formatter: subject
+      potentialid:
+        formatter: potentialid
+      quotestage:
+        formatter: quotestage
+      validtill:
+        formatter: validtill
+      contactid:
+        formatter: contactid
+      quote_no:
+        formatter: quote_no
+      subtotal:
+        formatter: subtotal
+      carrier:
+        formatter: carrier
+      shipping:
+        formatter: shipping
+      type:
+        formatter: type
+      taxtype:
+        formatter: taxtype
+      terms_conditions:
+        formatter: terms_conditions

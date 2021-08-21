@@ -1,0 +1,29 @@
+invoice: 
+  vtiger_invoice:
+    columns:
+      subject:
+        formatter: subject
+      customerno:
+        formatter: customerno
+      notes:
+        formatter: notes
+      invoicedate:
+        formatter: invoicedate
+      duedate:
+        formatter: duedate
+      invoiceterms:
+        formatter: invoiceterms
+      type:
+        formatter: type
+      taxtype:
+        formatter: taxtype
+      shipping:
+        formatter: shipping
+      terms_conditions:
+        formatter: terms_conditions
+      purchaseorder:
+        formatter: purchaseorder
+      invoicestatus:
+        formatter: invoicestatus
+      invoice_no:
+        formatter: invoice_no

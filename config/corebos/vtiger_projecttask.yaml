@@ -1,0 +1,25 @@
+projecttask:  
+  vtiger_projecttask:
+    columns:
+      projecttaskname:
+        formatter: projecttaskname
+      projecttask_no:
+        formatter: projecttask_no
+      projecttasktype:
+        formatter: projecttasktype
+      projecttaskpriority:
+        formatter: projecttaskpriority
+      projecttaskprogress:
+        formatter: projecttaskprogress
+      projecttaskhours:
+        formatter: projecttaskhours
+      startdate:
+        formatter: date
+      enddate:
+        formatter: date
+      projectid:
+        formatter: projectid
+      email:
+        formatter: email
+      projecttaskstatus:
+        formatter: projecttaskstatus

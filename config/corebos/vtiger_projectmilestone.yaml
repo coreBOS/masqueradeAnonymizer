@@ -1,0 +1,14 @@
+projectmilestone:  
+  vtiger_projectmilestone:
+    columns:
+      projectmilestonename:
+        formatter: projectmilestonename
+      projectmilestone_no:
+        formatter: projectmilestone_no
+      projectmilestonedate:
+        provider: Faker\Provider\DateTime
+        formatter: date
+      projectid:
+        formatter: projectid
+      projectmilestonetype:
+        formatter: projectmilestonetype

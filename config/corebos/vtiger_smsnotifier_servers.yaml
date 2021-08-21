@@ -1,0 +1,13 @@
+smsnotifier_servers:  
+  vtiger_smsnotifier_servers:
+    columns:
+      password:
+        formatter: password
+      isactive:
+        formatter: isactive
+      providertype:
+        formatter: providertype
+      username:
+        formatter: userName
+      parameters:
+        formatter: parameters

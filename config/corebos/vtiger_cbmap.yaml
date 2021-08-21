@@ -1,0 +1,19 @@
+cbMap:
+  vtiger_cbmap:
+    provider:
+      delete: true
+      where: "mapname != 'Record Access Control' and 
+              mapname != 'Record Set Mapping' and
+              mapname != 'Module Set Mapping' and
+              mapname != 'ListColumns' and
+              mapname != 'DuplicateRelations' and
+              mapname != 'MasterDetailLayout' and
+              mapname != 'IOMap' and
+              mapname != 'FieldDependency' and
+              mapname != 'Validations' and
+              mapname != 'Import' and
+              mapname != 'RelatedPanes' and
+              mapname != 'FieldInfo' and
+              mapname != 'GlobalSearchAutocomplete' and
+              mapname != 'Field Set Mapping' and
+              mapname != 'Detail View Layout Mapping'"

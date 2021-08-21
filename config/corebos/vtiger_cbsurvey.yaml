@@ -1,0 +1,15 @@
+cbsurvey:
+  vtiger_cbsurvey:
+    columns:
+      cbsurveyname:
+        formatter: cbsurveyname
+      cbsurveyprovider:
+        formatter: userName
+      cbsurveyurl:
+        formatter: url
+      cbsurveystart:
+        provider: Faker\Provider\DateTime
+        formatter: dateTimeThisCentury
+      cbsurveyend:
+        provider: Faker\Provider\DateTime
+        formatter: dateTimeThisCentury

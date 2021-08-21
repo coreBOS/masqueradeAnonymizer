@@ -1,0 +1,22 @@
+emaildetails:
+  vtiger_emaildetails:
+    columns:
+      from_email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      to_email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      cc_email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      bcc_email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      assigned_user_email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      idlists:
+        formatter: text
+      email_flag:
+        formatter: email_flag

@@ -1,0 +1,18 @@
+crmentity:  
+  vtiger_crmentity:
+    columns:
+      setype:
+        formatter: setype
+      description:
+        formatter: text
+      createdtime:
+        provider: Faker\Provider\DateTime
+        formatter: time
+      modifiedtime:
+        provider: Faker\Provider\DateTime
+        formatter: time
+      viewedtime:
+        provider: Faker\Provider\DateTime
+        formatter: time
+      status:
+        formatter: text

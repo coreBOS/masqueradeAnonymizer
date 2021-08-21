@@ -1,0 +1,38 @@
+vendor:  
+  vtiger_vendor:
+    columns:
+      vendorid:
+        formatter: vendorid
+      vendor_no:
+        formatter: vendor_no
+      vendorname:
+        formatter: vendorname
+      phone:
+        formatter: phone
+      email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      website:
+        provider: Faker\Provider\Internet
+        formatter: url
+      glacct:
+        formatter: glacct
+      category:
+        formatter: category
+      street:
+        formatter: streetName
+      city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      pobox:
+        provider: Faker\Provider\Address
+        formatter: address
+      postalcode:
+        formatter: postcode
+      country:
+        formatter: country
+      description:
+        formtter: description

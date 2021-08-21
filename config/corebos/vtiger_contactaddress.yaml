@@ -1,0 +1,39 @@
+contactaddress:
+  vtiger_contactaddress:
+    columns:
+      mailingcity:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      mailingstreet:
+        provider: Faker\Provider\en_US\Address
+        formatter: streetName
+      mailingcountry:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      othercountry:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      mailingstate:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      mailingpobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address
+      othercity:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      otherstate:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      mailingzip:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode
+      otherzip:
+        provider: Faker\Provider\en_US\Address
+        formatter: postcode
+      otherstreet:
+        provider: Faker\Provider\en_US\Address
+        formatter: street
+      otherpobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address

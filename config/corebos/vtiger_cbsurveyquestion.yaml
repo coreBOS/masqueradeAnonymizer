@@ -1,0 +1,17 @@
+cbsurveyquestion:  
+  vtiger_cbsurveyquestion:
+    columns:
+      cbsurveyquestion_no:
+        provider: Faker\Provider\Base
+        formatter: randomDigit
+      cbsurvey:
+        provider: Faker\Provider\Lorem
+        formatter: word
+      cbsq_providerid:
+        formatter: cbsq_providerid
+      cbsquestion:
+        provider: Faker\Provider\Lorem
+        formatter: word
+      cbsanswer:
+        provider: Faker\Provider\Lorem
+        formattet: word

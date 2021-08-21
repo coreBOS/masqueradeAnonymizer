@@ -1,0 +1,6 @@
+activity:
+  vtiger_activity:
+    columns:
+      location:
+        provider: Faker\Provider\en_US\Address
+        formatter: city

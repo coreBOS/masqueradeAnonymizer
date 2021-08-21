@@ -1,0 +1,18 @@
+accountshipads:
+  vtiger_accountshipads:
+    columns:
+      ship_city:
+        provider: Faker\Provider\en_US\Address
+        formatter: city
+      ship_country:
+        provider: Faker\Provider\en_US\Address
+        formatter: country
+      ship_state:
+        provider: Faker\Provider\en_US\Address
+        formatter: state
+      ship_pobox:
+        provider: Faker\Provider\en_US\Address
+        formatter: address
+      ship_street:
+        provider: Faker\Provider\en_US\Address
+        formatter: streetName
