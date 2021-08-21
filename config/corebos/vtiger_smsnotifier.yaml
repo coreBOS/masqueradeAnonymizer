@@ -1,0 +1,13 @@
+smsnotifier:
+  vtiger_smsnotifier:
+    columns:
+      message:
+        formatter: words
+  vtiger_smsnotifier_servers:
+    provider:
+      delete: true
+  vtiger_smsnotifier_status:
+    columns:
+      tonumber:
+        provider: Faker\Provider\PhoneNumber
+        formatter: phoneNumber
