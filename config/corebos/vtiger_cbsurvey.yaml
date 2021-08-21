@@ -2,9 +2,10 @@ cbsurvey:
   vtiger_cbsurvey:
     columns:
       cbsurveyname:
-        formatter: cbsurveyname
+        formatter: words
       cbsurveyprovider:
-        formatter: userName
+        provider: Faker\Provider\en_US\Company
+        formatter: company
       cbsurveyurl:
         formatter: url
       cbsurveystart:

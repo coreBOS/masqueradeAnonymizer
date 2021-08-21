@@ -1,19 +1,16 @@
 cbsurveydone:
   vtiger_cbsurveydone:
     columns:
-      cbsurveydone_no:
-        formatter: cbsurveydone_no
       surveydonedate:
         provider: Faker\Provider\DateTime
         formatter: dateTimeThisCentury
       cbsd_providerid:
-        formatter: cbsd_providerid
+        formatter: uuid
       cbsq_token:
-        formatter: cbsq_token
-      cbsq_completed:
-        formatter: cbsq_completed
+        formatter: uuid
       cbsq_addinfo:
-        formatter: cbsq_addinfo
+        provider: Faker\Provider\en_US\Text
+        formatter: realText
       cbsq_hiddeninfo:
         provider: Faker\Provider\en_US\Text
         formatter: realText

@@ -2,8 +2,7 @@ cbsurveyanswer:
   vtiger_cbsurveyanswer:
     columns:
       cbsa_providerid:
-        provider: Faker\Provider\en_US\Text
-        formatter: cbsa_providerid
+        formatter: uuid
       cbsurveyanswer:
         provider: Faker\Provider\en_US\Text
         formatter: realText

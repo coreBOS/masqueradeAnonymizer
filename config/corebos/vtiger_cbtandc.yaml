@@ -1,11 +1,7 @@
-cbtandc:
+cbTermConditions:
   vtiger_cbtandc:
     columns:
-      cbtandcno:
-        formatter: cbtandcno
       reference:
-        formatter: reference
-      formodule:
-        formatter: formodule
+        formatter: words
       tandc:
         formatter: text
