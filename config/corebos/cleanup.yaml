@@ -1,0 +1,18 @@
+cleanup:
+  vtiger_audit_trial:
+    provider:
+      delete: true
+  vtiger_import_locks:
+    provider:
+      delete: true
+  vtiger_import_queue:
+    provider:
+      delete: true
+  vtiger_loginhistory:
+    provider:
+      delete: true
+  vtiger_rss:
+    provider:
+      delete: true
+
+
