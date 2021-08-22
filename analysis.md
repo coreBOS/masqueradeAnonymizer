@@ -1,4 +1,11 @@
+# Initial Analysis of tables
+
+The actual project deviated a little from this layout, but it is mostly correct
+
+What is **pending** is to create a special provider for the Email Details table. Email Details needs a provider to return a JSON array of emails for to, cc and bcc email column
+
 ## tables to be emptied directly
+
 - cb_messagequeue
 - cb_settings > must keep only the rows: cbmqtm_classfile, cbmqtm_classname, coreBOSMessageModuleWithS
 - vtiger_cbcredentials
@@ -118,4 +125,4 @@ For the moment we are not going to modify these tables. Let's do a first phase o
 
 ### custom field tables
 
-- All custom fields must be anonymzed as we do not know what they could contain
+- All custom fields must be anonymzed as we do not know what they could contain, but we decide to leave this as a specific task for each install to do on their own as there is no easy way to get the meta-information without programming.
