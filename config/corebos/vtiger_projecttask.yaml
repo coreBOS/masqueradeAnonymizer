@@ -2,7 +2,7 @@ projecttask:
   vtiger_projecttask:
     columns:
       projecttaskname:
-        formatter: words
+        formatter: sentence
       startdate:
         formatter: date
       enddate:

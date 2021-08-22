@@ -10,10 +10,10 @@ cbcompany:
       siccode:
         formatter: swiftBicNumber
       phone:
-        provider: Faker\Provider\en_HK\PhoneNumber
+        provider: Faker\Provider\en_US\PhoneNumber
         formatter: phoneNumber
       fax:
-        provider: Faker\Provider\en_HK\PhoneNumber
+        provider: Faker\Provider\en_US\PhoneNumber
         formatter: faxNumber
       website:
         formatter: url

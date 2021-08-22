@@ -24,7 +24,7 @@ contacts:
       department:
         formatter: shuffle
       fax:
-        provider: Faker\Provider\en_HK\PhoneNumber
+        provider: Faker\Provider\en_US\PhoneNumber
         formatter: faxNumber
       secondaryemail:
         provider: Faker\Provider\Internet

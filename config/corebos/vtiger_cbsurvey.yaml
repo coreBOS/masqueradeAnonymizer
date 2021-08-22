@@ -2,7 +2,7 @@ cbsurvey:
   vtiger_cbsurvey:
     columns:
       cbsurveyname:
-        formatter: words
+        formatter: sentence
       cbsurveyprovider:
         provider: Faker\Provider\en_US\Company
         formatter: company

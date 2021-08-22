@@ -2,7 +2,7 @@ potential:
   vtiger_potential:
     columns:
       potentialname:
-        formatter: words
+        formatter: sentence
       amount:
         formatter: randomFloat
       forecast_amount:

@@ -2,7 +2,7 @@ quotes:
   vtiger_quotes:
     columns:
       subject:
-        formatter: words
+        formatter: sentence
       terms_conditions:
         formatter: text
       adjustment:

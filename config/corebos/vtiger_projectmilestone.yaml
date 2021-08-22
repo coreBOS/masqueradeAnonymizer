@@ -2,7 +2,7 @@ projectmilestone:
   vtiger_projectmilestone:
     columns:
       projectmilestonename:
-        formatter: words
+        formatter: sentence
       projectmilestonedate:
         provider: Faker\Provider\DateTime
         formatter: date

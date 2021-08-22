@@ -2,7 +2,7 @@ salesorder:
   vtiger_salesorder:
     columns:
       subject:
-        formatter: words
+        formatter: sentence
       customerno:
         formatter: ean8
         optional: true

@@ -28,5 +28,5 @@ accounts:
       website:
         formatter: url
       fax:
-        provider: Faker\Provider\en_HK\PhoneNumber
+        provider: Faker\Provider\en_US\PhoneNumber
         formatter: faxNumber

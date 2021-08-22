@@ -2,11 +2,11 @@ invoice:
   vtiger_invoice:
     columns:
       subject:
-        formatter: words
+        formatter: sentence
       customerno:
         formatter: randomNumber
       purchaseorder:
-        formatter: words
+        formatter: sentence
       terms_conditions:
         formatter: text
       adjustment:

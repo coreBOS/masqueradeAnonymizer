@@ -2,6 +2,6 @@ cbTermConditions:
   vtiger_cbtandc:
     columns:
       reference:
-        formatter: words
+        formatter: sentence
       tandc:
         formatter: text

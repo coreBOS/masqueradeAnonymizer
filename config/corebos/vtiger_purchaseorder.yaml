@@ -2,7 +2,7 @@ purchaseorder:
   vtiger_purchaseorder:
     columns:
       subject:
-        formatter: words
+        formatter: sentence
       requisition_no:
         formatter: ean13
         optional: true

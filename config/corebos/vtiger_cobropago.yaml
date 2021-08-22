@@ -2,7 +2,7 @@ cobropago:
   vtiger_cobropago:
     columns:
       reference:
-        formatter: words
+        formatter: sentence
       amount:
         formatter: randomFloat
       cost:

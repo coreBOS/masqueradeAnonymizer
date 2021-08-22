@@ -2,7 +2,7 @@ troubletickets:
   vtiger_troubletickets:
     columns:
       title:
-        formatter: words
+        formatter: sentence
       update_log:
         nullColumnBeforeRun: true
       email:

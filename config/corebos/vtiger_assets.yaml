@@ -8,7 +8,7 @@ assets:
       shippingtrackingnumber:
         formatter: isbn10
       assetname:
-        formatter: words
+        formatter: sentence
       tagnumber:
         formatter: ean8
 

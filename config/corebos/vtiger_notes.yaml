@@ -2,7 +2,7 @@ notes:
   vtiger_notes:
     columns:
       title:
-        formatter: words
+        formatter: sentence
       filename:
         formatter: file
       notecontent:

@@ -2,4 +2,4 @@ servicecontracts:
   vtiger_servicecontracts:
     columns:
       subject:
-        formatter: words
+        formatter: sentence

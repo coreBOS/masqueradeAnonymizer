@@ -2,7 +2,7 @@ products:
   vtiger_products:
     columns:
       productname:
-        formatter: words
+        formatter: sentence
       website:
         provider: Faker\Provider\Internet
         formatter: url

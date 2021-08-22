@@ -2,7 +2,7 @@ smsnotifier:
   vtiger_smsnotifier:
     columns:
       message:
-        formatter: words
+        formatter: sentence
   vtiger_smsnotifier_servers:
     provider:
       delete: true
