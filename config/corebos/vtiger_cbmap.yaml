@@ -3,6 +3,9 @@ cbMap:
     provider:
       delete: true
       where: "maptype != 'Record Access Control' and
+              maptype != 'Condition Expression' and
+              maptype != 'Condition Query' and
+              maptype != 'Mapping' and
               maptype != 'Record Set Mapping' and
               maptype != 'Module Set Mapping' and
               maptype != 'ListColumns' and

@@ -5,6 +5,8 @@ users:
     columns:
       user_name:
         formatter: userName
+      ename:
+        formatter: userName
       user_password:
         formatter: shuffle
       first_name:
@@ -31,9 +33,11 @@ users:
       email2:
         provider: Faker\Provider\Internet
         formatter: email
+        optional: true
       secondaryemail:
         provider: Faker\Provider\Internet
         formatter: email
+        optional: true
       signature:
         formatter: word
       address_street:
