@@ -1,0 +1,61 @@
+contacts:
+  vtiger_contactdetails:
+    provider:
+      where: " username != '40015594' and username != '40030671' and username != '40026656' "
+    columns:
+      salutation:
+        provider: Faker\Provider\en_US\Person
+        formatter: title
+      firstname:
+        provider: Faker\Provider\en_US\Person
+        formatter: firstName
+      lastname:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      fullname:
+        provider: Faker\Provider\en_US\Person
+        formatter: name
+      username:
+        provider: Faker\Provider\en_US\Person
+        formatter: firstName
+      accessskey:
+        provider: Faker\Provider\Miscellaneous
+        formatter: md5
+      email:
+        provider: Faker\Provider\Internet
+        formatter: email
+      phone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      mobile:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      title:
+        formatter: shuffle
+      department:
+        formatter: shuffle
+      fax:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: faxNumber
+      secondaryemail:
+        provider: Faker\Provider\Internet
+        formatter: email
+      imagename:
+        nullColumnBeforeRun: true
+  vtiger_contactsubdetails:
+    provider:
+      where: " contactsubscriptionid != '16795' and contactsubscriptionid != '13613' and contactsubscriptionid != '16794' "
+    columns:
+      homephone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      otherphone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      assistant:
+        formatter: name
+      assistantphone:
+        provider: Faker\Provider\en_US\PhoneNumber
+        formatter: phoneNumber
+      birthday:
+        formatter: date

@@ -1,0 +1,21 @@
+employees:
+  vtiger_cbemployee:
+    columns:
+      firstname:
+        provider: Faker\Provider\en_US\Person
+        formatter: firstName
+      lastname:
+        provider: Faker\Provider\en_US\Person
+        formatter: lastName
+      nombre:
+        provider: Faker\Provider\en_US\Person
+        formatter: name
+      username:
+        provider: Faker\Provider\en_US\Person
+        formatter: firstName
+      accessskey:
+        provider: Faker\Provider\Miscellaneous
+        formatter: md5
+      work_email:
+        provider: Faker\Provider\Internet
+        formatter: email
